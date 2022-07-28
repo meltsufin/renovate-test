@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["^dependencies\\.properties$"],
+      "matchStrings": ["=(?<depName>.*?):(?<currentValue>.*?)\\n"],
+      "datasourceTemplate": "maven"
+    }
+  ]
+}
