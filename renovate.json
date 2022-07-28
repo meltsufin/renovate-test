@@ -17,13 +17,13 @@
     {
       "fileMatch": ["^dependencies\\.properties$"],
       "matchStrings": ["version\\.google_java_format=(?<currentValue>.*?)\\n"],
-      "depNameTemplate": "io.grpc:grpc-core",
+      "depNameTemplate": "com.google.googlejavaformat:google-java-format",
       "datasourceTemplate": "maven"
     },
     {
       "fileMatch": ["^dependencies\\.properties$"],
       "matchStrings": ["version\\.io_grpc=(?<currentValue>.*?)\\n"],
-      "depNameTemplate": "com.google.googlejavaformat:google-java-format",
+      "depNameTemplate": "io.grpc:grpc-core",
       "datasourceTemplate": "maven"
     }
   ]
