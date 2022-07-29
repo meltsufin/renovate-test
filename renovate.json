@@ -2,7 +2,7 @@
   "extends": [
     "config:base"
   ],
-  "enabledManagers": [],
+  "enabledManagers": ["dockerfile"],
   "regexManagers": [
     {
       "fileMatch": ["^.*java/2.0.0/features.json$"],
