@@ -39,6 +39,10 @@
       "matchStrings": ["\"jackson2CoreVersion\": \"(?<currentValue>.*?)\""],
       "depNameTemplate": "com.fasterxml.jackson:jackson-bom",
       "datasourceTemplate": "maven"
+    },
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": ["<version>([\\d.]+)</version>", "version: ([\\d.]+)"]
     }
   ]
 }
