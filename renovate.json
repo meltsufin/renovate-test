@@ -42,7 +42,9 @@
     },
     {
       "fileMatch": ["README.md"],
-      "matchStrings": ["<version>([\\d.]+)</version>", "version: ([\\d.]+)"]
+      "matchStrings": ["<version>([\\d.]+)</version>", "version: ([\\d.]+)"],
+      "depNameTemplate": "com.google.cloud:libraries-bom",
+      "datasourceTemplate": "maven"
     }
   ]
 }
