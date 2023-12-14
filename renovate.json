@@ -3,7 +3,7 @@
     "config:base"
   ],
   "includePaths": [
-    "README.md"
+    "**/README.md"
   ],
   "enabledManagers": ["regex"],
   "regexManagers": [
