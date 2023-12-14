@@ -42,7 +42,7 @@
     },
     {
       "fileMatch": ["README.md"],
-      "matchStrings": ["<artifactId>libraries-bom</artifactId>\\s+<version>(<currentValue>)</version>"],
+      "matchStrings": ["<artifactId>libraries-bom</artifactId>\\s+<version>(?<currentValue>.*?)</version>"],
       "depNameTemplate": "com.google.cloud:libraries-bom",
       "datasourceTemplate": "maven"
     }
