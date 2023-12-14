@@ -2,6 +2,9 @@
   "extends": [
     "config:base"
   ],
+  "includePaths": [
+    "README.md"
+  ],
   "enabledManagers": ["regex"],
   "regexManagers": [
     {
